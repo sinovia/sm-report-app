@@ -1,0 +1,45 @@
+{
+  "reports": [
+    {
+      "id": 0,
+      "Show Name": "Hamilton",
+      "Rehearsal Date": "July 5th",
+      "Stage Manager": "Sinovia Mayfield",
+      "Director": "Thomas Kail",
+      "Props": "The corners of the letter that Hamilton brings to Burr are beginning to tear.  Please replace.",
+      "Costumes": "The sole of LaFayette's right shoe in his 'Story of Tonight' look is coming apart",
+      "Lights": "Nothing to report.  Cleaning up button of 'My Shot'",
+      "Sounds": "The gunshot at the end of Act I is delayed.  Can you check that out?",
+      "RunTime": "2 hour and 25 minutes",
+      "General": "Front of House advised: Spotted a cell phone from on 2nd mezz."
+    },
+    {
+      "id": 1,
+      "Show Name": "Hamilton",
+      "Rehearsal Date": "July 6th",
+      "Stage Manager": "Sinovia Mayfield",
+      "Director": "Thomas Kail",
+      "Props": "Nothing to report",
+      "Costumes": "Eliza's quick change between the tavern and the ball is running behind.  Please work with her to tighten that up. ",
+      "Lights": "Spot 1 flickered during finale number '",
+      "Sounds": "Lin's mic cut out in That Would be Enough and he could not be heard.",
+      "General": " Today's run time is 2 hour and 25 minutes",
+      "RunTime": "2 hour and 22 minutes",
+      "General": "Tonight was a solid run.  No stutters or delays."
+    },
+    {
+      "id": 2,
+      "Show Name": "Hamilton",
+      "Rehearsal Date": "July 6th",
+      "Stage Manager": "Sinovia Mayfield",
+      "Director": "Thomas Kail",
+      "Props": "Nothing to report",
+      "Costumes": "Hercules ripped the seam of his pants during his jump off of the bar in the Act II Congress scene ",
+      "Lights": "Spot 1 flickered during finale number '",
+      "Sounds": "Got a bit of mic feedback during Angelica high note in the wedding toast",
+      "General": " Today's run time is 2 hour and 25 minutes",
+      "RunTime": "2 hour and 22 minutes",
+      "General": "Tonight was a solid run.  No stutters or delays."
+    }
+  ]
+}
