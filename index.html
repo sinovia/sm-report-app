@@ -4,14 +4,28 @@
     <meta charset="utf-8">
     <title></title>
     <title>Project Name</title>
-    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   <body>
+  <div class=navbar> CALLBOARD </div>
+  <div class=indexSquare><a href="#/home" class="indexButton"> Home </a>
+  </div>
+
+  <div class="recentSquare"><a href="#/report-list" class="listButton">Recent Reports</a>
+  </div>
+
+  <div class="showSquare"><a href="#/showreport:id" class="showButton"> Show Report </a>
+  </div>
+
+  <div class="addSquare"><a href="#/home" class="addButton"> Add New Report </a>
+  </div>
 
 
-
+    <div class="injectable-view" ng-app="mainApp">
+        <ng-view></ng-view>
+      </div>
 
       <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>

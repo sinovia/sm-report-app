@@ -1,3 +1,79 @@
 @import "_home";
 @import "_report-list";
 @import "_show-report";
+
+body {
+  background-color: white;
+}
+
+a {
+  color: white
+}
+
+.addButton {
+  background-color: green;
+  height:50%;
+  width: 25%;
+  display: block;
+  margin-left: 75%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+}
+
+.listButton{
+  background-color: purple;
+  height:50%;
+  width: 25%;
+  display: block;
+  margin-left: 75%;
+  position: absolute;
+  top: 0%;
+  text-align: center;
+}
+
+.showButton{
+  background-color: blue;
+  height:50%;
+  width: 25%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+}
+
+.indexButton {
+  background-color: red;
+  height:50%;
+  width: 25%;
+  display: block;
+  margin-left: 0%;
+  position: absolute;
+  top: 0%;
+    text-align: center;
+}
+
+.navbar {
+  background-color: black;
+  width: 50%;
+  height: 10%;
+  display: block;
+  text-align: center;
+  margin-left: 25%;
+  color: white;
+  font-family: sans-serif;
+  font-size: 60px;
+
+}
+
+ .injectable-view{
+   background-color: white;
+   position: absolute;
+   width: 50%;
+   height: 100%;
+   border: 1px solid white;
+   right: 25%;
+  left: 25%;
+  text-align: center;
+
+ }
