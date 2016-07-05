@@ -1,6 +1,11 @@
 <div class="listofreports" ng-controller="ReportController as reports">
 
-<p ng-repeat= "report in reportList"> {{reportList}} </p>
+
+<p class="reportHeader"> Your most recent Rehearsal Reports: </p>
+
+
+<div class"ShowName" ng-repeat= "report in reportList">
+  Performance Report from <a href="#/showreport:{{reportList.indexOf(report)}}"> {{report.RehearsalDate}} </a> </p>
 
 
 </div>

@@ -2,9 +2,9 @@
   "reports": [
     {
       "id": 0,
-      "Show-Name": "Hamilton",
-      "Rehearsal-Date": "July 5th",
-      "Stage-Manager": "Sinovia Mayfield",
+      "ShowName": "Hamilton",
+      "RehearsalDate": "July 5th",
+      "SM": "Sinovia Mayfield",
       "Director": "Thomas Kail",
       "Props": "The corners of the letter that Hamilton brings to Burr are beginning to tear.  Please replace.",
       "Costumes": "The sole of LaFayette's right shoe in his 'Story of Tonight' look is coming apart",
@@ -15,9 +15,9 @@
     },
     {
       "id": 1,
-      "Show-Name": "Hamilton",
-      "Rehearsal-Date": "July 6th",
-      "Stage-Manager": "Sinovia Mayfield",
+      "ShowName": "Hamilton",
+      "RehearsalDate": "July 6th",
+      "StageManager": "Sinovia Mayfield",
       "Director": "Thomas Kail",
       "Props": "Nothing to report",
       "Costumes": "Eliza's quick change between the tavern and the ball is running behind.  Please work with her to tighten that up. ",
@@ -29,16 +29,16 @@
     },
     {
       "id": 2,
-      "Show-Name": "Hamilton",
-      "Rehearsal-Date": "July 7th",
-      "Stage-Manager": "Sinovia Mayfield",
+      "ShowName": "Hamilton",
+      "RehearsalDate": "July 7th",
+      "StageManager": "Sinovia Mayfield",
       "Director": "Thomas Kail",
       "Props": "Nothing to report",
       "Costumes": "Hercules ripped the seam of his pants during his jump off of the bar in the Act II Congress scene ",
       "Lights": "Spot 1 flickered during finale number '",
       "Sounds": "Got a bit of mic feedback during Angelica high note in the wedding toast",
       "General": " Today's run time is 2 hour and 25 minutes",
-      "Run-Time": "2 hour and 22 minutes",
+      "RunTime": "2 hour and 22 minutes",
       "General": "Tonight was a solid run.  No stutters or delays."
     }
   ]

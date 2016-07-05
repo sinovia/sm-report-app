@@ -12,7 +12,7 @@ SMapp.config(function($routeProvider) {
       templateUrl: 'templates/report-list.html',
       // controller: 'ReportController'
     })
-    .when('/showreport:id', {
+    .when('/showreport:reportid', {
       templateUrl: 'templates/show-report.html',
       // controller: 'ReportController'
       })
@@ -30,3 +30,16 @@ SMapp.controller('ReportController', function($scope, $http){
         console.log(data)
      });
 });
+
+
+SMapp.controller('ReportbyDayController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams){
+
+  var url = "http://localhost:3007/reports"
+     $http.get(url).success( function(data) {
+        $scope.reportList = data;
+        $scope.whichReport = $routeParams.reportID;
+
+        console.log(data)
+     });
+   }]
+);

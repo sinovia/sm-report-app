@@ -1,11 +1,14 @@
 body {
   background-color: purple; }
 
+.reportHeader {
+  font-size: 20px; }
+
 body {
   background-color: white; }
 
 a {
-  color: white; }
+  color: gray; }
 
 .addButton {
   background-color: green;
