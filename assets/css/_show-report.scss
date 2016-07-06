@@ -1,0 +1,55 @@
+.reportInfo{
+
+  width: 150%;
+  margin-left: 20%;
+    margin-top: 10%;
+}
+
+.ReportHeader {
+
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.reportDetails{
+
+  width: 150%;
+  margin-left: 20%;
+    margin-top: 2%;
+}
+
+.DetailsHeader {
+
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.reportcol1 {
+  margin-top: 2%;
+
+  width: 60%;
+  height: 30em;
+  display: inline-block;
+  margin-left: -60%;
+  position: absolute;
+}
+
+.reportcol2 {
+    margin-top: 2%;
+  width: 60%;
+  height: 30em;
+  display: inline-block;
+  position: absolute;
+}
+
+.detailsTop
+{
+  color: black;
+  text-decoration: underline;
+  font-size: 25px;
+  padding-top: 15%;
+}
+
+.reportNotes{
+  font-size: 20px;
+}

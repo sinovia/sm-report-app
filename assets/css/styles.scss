@@ -1,17 +1,19 @@
 @import "_home";
 @import "_report-list";
 @import "_show-report";
+@import "_add-report";
 
 body {
-  background-color: white;
+  background-color: gray;
 }
 
 a {
-  color: gray;
+  color: white;
+  text-decoration: none;
 }
 
 .addButton {
-  background-color: green;
+  background-color: black;
   height:50%;
   width: 25%;
   display: block;
@@ -19,10 +21,12 @@ a {
   position: absolute;
   top: 50%;
   text-align: center;
+    font-size: 40px;
+    padding-top: 5%;
 }
 
 .listButton{
-  background-color: purple;
+  background-color: black;
   height:50%;
   width: 25%;
   display: block;
@@ -30,20 +34,24 @@ a {
   position: absolute;
   top: 0%;
   text-align: center;
+    font-size: 40px;
+        padding-top: 5%;
 }
 
 .showButton{
-  background-color: blue;
+  background-color: black;
   height:50%;
   width: 25%;
   display: block;
   position: absolute;
   top: 50%;
   text-align: center;
+    font-size: 40px;
+        padding-top: 5%;
 }
 
 .indexButton {
-  background-color: red;
+  background-color: black;
   height:50%;
   width: 25%;
   display: block;
@@ -51,6 +59,8 @@ a {
   position: absolute;
   top: 0%;
     text-align: center;
+    font-size: 40px;
+        padding-top: 5%;
 }
 
 .navbar {
@@ -60,20 +70,27 @@ a {
   display: block;
   text-align: center;
   margin-left: 25%;
-  color: white;
+  margin-top: 2%;
   font-family: sans-serif;
-  font-size: 60px;
+  z-index: 1;
+  color: white;
+  font-size: 55px;
 
 }
 
  .injectable-view{
-   background-color: white;
+   background-color: gray;
    position: absolute;
-   width: 50%;
+   width: 25%;
    height: 100%;
-   border: 1px solid white;
    right: 25%;
   left: 25%;
   text-align: center;
 
+ }
+
+ .fa{
+   font-size:120px;
+margin-top: 10%;
+text-align: center;
  }

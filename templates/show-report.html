@@ -1,3 +1,73 @@
-Report Details about report numer:
+<div class="reportInfo">
 
-{{reportList[whichReport]}}
+	<span class="ReportHeader">NAME OF SHOW<br></span>
+
+	Rehearsal Date: {{reportList[1].RehearsalDate}} <br>
+	Stage Manager: {{reportList[1].SM}}<br>
+	Director:{{reportList[1].Director}}<br>
+
+</div>
+
+<div class="reportDetails">
+	<span class="DetailsHeader">Show Notes<br></span>
+	Rehearsal Date: {{reportList[1].RehearsalDate}} <br>
+	Stage Manager: {{reportList[1].SM}}<br>
+	Director:{{reportList[1].Director}}<br>
+
+<div class=reportcol1>
+					<h1 class="detailsTop"> General</h1>
+		<h3 class=reportNotes>{{reportList[1].General}}</h3><br>
+
+		<h1 class="detailsTop">Costumes</h1>
+		<h3 class=reportNotes>{{reportList[1].Costume}}</h3><br>
+
+		<h1 class="detailsTop"> Sound</h1>
+		<h3 class=reportNotes>{{reportList[1].Sound}}</h3><br>
+
+
+
+
+</div>
+
+<div class=reportcol2>
+	<h1 class="detailsTop"> Props</h1>
+	<h3 class=reportNotes>{{reportList[1].Props}}</h3><br>
+
+	<h1 class="detailsTop"> Lights</h1>
+	<h3 class=reportNotes>{{reportList[1].Lights}}</h3><br>
+
+	<h1 class="detailsTop"> Run Time</h1>
+	<h3 class=reportNotes>{{reportList[1].RunTime}}</h3><br>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<!-- <table class="reportData">
+	<tr>
+		<td><div class="info">General<br>
+    <p>{{reportList[1].General}}</p></div></td>
+		<td><div class="info">Props<br>
+    <p>{{reportList[1].Props}}</p></div></td>
+	</tr>
+	<tr>
+		<td><div class="info">Costume<br>
+    <p>{{reportList[1].Costume}}</p></div></td>
+	<td><div class="info">Lights<br>
+  <p>{{reportList[1].Lights}}</p></div></td>
+	</tr>
+  <tr>
+  <td><div class="info">Sound
+    <br>
+    <p>{{reportList[1].Sound}}</p></div></td>
+    <td><div class="info">Run Time<br>
+    <p>{{reportList[1].RunTime}}</p></div></td>
+  </tr>
+</table> -->

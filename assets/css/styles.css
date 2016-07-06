@@ -4,50 +4,121 @@ body {
 .reportHeader {
   font-size: 20px; }
 
+.reportInfo {
+  width: 150%;
+  margin-left: 20%;
+  margin-top: 10%; }
+
+.ReportHeader {
+  font-weight: bolder;
+  font-size: 40px; }
+
+.reportDetails {
+  width: 150%;
+  margin-left: 20%;
+  margin-top: 2%; }
+
+.DetailsHeader {
+  font-weight: bolder;
+  font-size: 40px; }
+
+.reportcol1 {
+  margin-top: 2%;
+  width: 60%;
+  height: 30em;
+  display: inline-block;
+  margin-left: -60%;
+  position: absolute; }
+
+.reportcol2 {
+  margin-top: 2%;
+  width: 60%;
+  height: 30em;
+  display: inline-block;
+  position: absolute; }
+
+.detailsTop {
+  color: black;
+  text-decoration: underline;
+  font-size: 25px;
+  padding-top: 15%; }
+
+.reportNotes {
+  font-size: 20px; }
+
+.addPetForm {
+  width: 35em;
+  text-align: left;
+  margin-left: 1%; }
+
+.NewReport input {
+  height: 30px;
+  width: 35em;
+  margin: 2%;
+  border-radius: 3px; }
+
+.details {
+  color: white;
+  font-family: sans-serif;
+  width: 10%; }
+
+.dummyCalendar {
+  width: 100%;
+  border: 1px solid red; }
+
 body {
-  background-color: white; }
+  background-color: gray; }
 
 a {
-  color: gray; }
+  color: white;
+  text-decoration: none; }
 
 .addButton {
-  background-color: green;
+  background-color: black;
   height: 50%;
   width: 25%;
   display: block;
   margin-left: 75%;
   position: absolute;
   top: 50%;
-  text-align: center; }
+  text-align: center;
+  font-size: 40px;
+  padding-top: 5%; }
 
 .listButton {
-  background-color: purple;
+  background-color: black;
   height: 50%;
   width: 25%;
   display: block;
   margin-left: 75%;
   position: absolute;
   top: 0%;
-  text-align: center; }
+  text-align: center;
+  font-size: 40px;
+  padding-top: 5%; }
 
 .showButton {
-  background-color: blue;
+  background-color: black;
   height: 50%;
   width: 25%;
   display: block;
   position: absolute;
   top: 50%;
-  text-align: center; }
+  text-align: center;
+  font-size: 40px;
+  padding-top: 5%; }
 
 .indexButton {
-  background-color: red;
+  background-color: black;
   height: 50%;
   width: 25%;
   display: block;
   margin-left: 0%;
   position: absolute;
   top: 0%;
-  text-align: center; }
+  text-align: center;
+  font-size: 40px;
+  padding-top: 5%; }
 
 .navbar {
   background-color: black;
@@ -56,18 +127,24 @@ a {
   display: block;
   text-align: center;
   margin-left: 25%;
-  color: white;
+  margin-top: 2%;
   font-family: sans-serif;
-  font-size: 60px; }
+  z-index: 1;
+  color: white;
+  font-size: 55px; }
 
 .injectable-view {
-  background-color: white;
+  background-color: gray;
   position: absolute;
-  width: 50%;
+  width: 25%;
   height: 100%;
-  border: 1px solid white;
   right: 25%;
   left: 25%;
+  text-align: center; }
+
+.fa {
+  font-size: 120px;
+  margin-top: 10%;
   text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
